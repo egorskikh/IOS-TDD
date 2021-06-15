@@ -31,32 +31,32 @@ import Foundation
 import UIKit
 
 @IBDesignable class ChaseView: UIView {
-
+  
   let nessieView = UIImageView()
   let runnerView = UIImageView()
-
+  
   var state: AppState = .notStarted {
     didSet {
       nessieView.image = state.nessieImage
       runnerView.image = state.runnerImage
     }
   }
-
+  
   private func commonSetup() {
     addSubview(nessieView)
     addSubview(runnerView)
   }
-
+  
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     commonSetup()
   }
-
+  
   override init(frame: CGRect) {
     super.init(frame: frame)
     commonSetup()
   }
-
+  
   override func prepareForInterfaceBuilder() {
     let bundle = Bundle(for: ChaseView.self)
     nessieView.image = UIImage(named: "Nessie", in: bundle, compatibleWith: nil)
@@ -65,8 +65,10 @@ import UIKit
 }
 
 extension AppState {
+  
   var nessieImage: UIImage {
     let imageName: String
+    
     switch self {
     case .notStarted:
       imageName = "NessieSleeping"
@@ -81,7 +83,7 @@ extension AppState {
     }
     return UIImage(named: imageName)!
   }
-
+  
   var runnerImage: UIImage {
     let imageName: String
     switch self {
@@ -98,4 +100,5 @@ extension AppState {
     }
     return UIImage(named: imageName)!
   }
+  
 }
