@@ -1,6 +1,6 @@
 # IOS-TDD
 
-> Section I: Hello, TDD!
+# Section I: Hello, TDD!
 ## Chapter 1: What Is TDD?
 ### Key points
 - TDD предлагает последовательный метод написания хороших тестов.
@@ -15,9 +15,9 @@
 - Зеленый: тест пройден.
 - Рефакторинг: сделайте чистым код приложение и тестовый код.
 - Повторите: сделайте это снова, пока все ваши функции не будут реализованы.
-- [example]( )
+- [example](https://github.com/egorskikh/IOS-TDD/tree/main/Section%20I/TDD-CYCLE/CashRegister.playground)
 
-> Section II: Beginning TDD
+# Section II: Beginning TDD
 ## Chapter 3: Driving TDD
 ### Key points
 - TDD - это написание тестов перед написанием логики приложения.
@@ -25,4 +25,4 @@
 - Каждый тест должен завершиться неудачно при первом выполнении. Отсутствие компиляции считается ошибкой.
 - Используйте тесты, чтобы направлять рефакторинг кода на удобочитаемость и производительность.
 - Хорошие соглашения об именах упрощают навигацию и поиск проблем.
-- [example]( )
+- [example](https://github.com/egorskikh/IOS-TDD/tree/main/Section%20II/2.%20TDD-app-setup/FitNess)
