@@ -1,11 +1,11 @@
 # IOS-TDD
 
 > Section I: Hello, TDD!
-- Chapter 1: [**What Is TDD?**](https://github.com/egorskikh/IOS-TDD#chapter-1-what-is-tdd)
-- Chapter 2: [**The TDD Cycle**](https://github.com/egorskikh/IOS-TDD#chapter-2-the-tdd-cycle)
+- Chapter 1: [**What Is TDD?**](https://github.com/egorskikh/IOS-TDD#what-is-tdd)
+- Chapter 2: [**The TDD Cycle**](https://github.com/egorskikh/IOS-TDD#the-tdd-cycle)
 <br> </br>
 > Section II: Beginning TDD
-- Chapter 3: [**Driving TDD**](https://github.com/egorskikh/IOS-TDD#chapter-3-driving-tdd)
+- Chapter 3: [**Driving TDD**](https://github.com/egorskikh/IOS-TDD#driving-tdd)
 - Chapter 4: **Test Expressions**
 - Chapter 5: **Test Expectations**
 - Chapter 6: **Dependency Injection & Mocks**
@@ -25,7 +25,7 @@
 - Chapter 16: **Refactoring Large Classes**
 <br> </br>
 # Contents
-## Chapter 1: What Is TDD?
+## What Is TDD?
 ### Key points
 - TDD предлагает последовательный метод написания хороших тестов.
 - Хорошие тесты безупречны, повторяемы, быстры в выполнении и ремонтопригодны.
@@ -33,7 +33,7 @@
 - Реальная стоимость разработки включает время начального кодирования, добавление новых функций с течением времени, изменение существующего кода, исправление ошибок и многое другое. TDD снижает затраты на обслуживание и количество ошибок, часто делая его наиболее экономичным подходом.
 - TDD наиболее полезен для долгосрочных проектов, длящихся более нескольких месяцев или имеющих несколько выпусков.
 <br> </br>
-## Chapter 2: The TDD Cycle
+## The TDD Cycle
 ### Key points
 - Красный: напишите неудачный тест.
 - Зеленый: тест пройден.
@@ -41,7 +41,7 @@
 - Повторите: сделайте это снова, пока все ваши функции не будут реализованы.
 - [example](https://github.com/egorskikh/IOS-TDD/tree/main/Section%20I/TDD-CYCLE/CashRegister.playground)
 <br> </br>
-## Chapter 3: Driving TDD
+## Driving TDD
 ### Key points
 - TDD - это написание тестов перед написанием логики приложения.
 - Используйте логические утверждения для определения того, что следует тестировать.
